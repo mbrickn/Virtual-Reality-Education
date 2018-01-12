@@ -10,11 +10,13 @@
   <!--A-Frame Extras-->
   <script src="//cdn.rawgit.com/donmccurdy/aframe-extras/v3.13.1/dist/aframe-extras.min.js"></script>
   <!--A-Frame Physics-->
-  <script src="//cdn.rawgit.com/donmccurdy/aframe-physics-system/v2.1.0/dist/aframe-physics-system.min.js"></script>-->
+  <script src="//cdn.rawgit.com/donmccurdy/aframe-physics-system/v2.1.0/dist/aframe-physics-system.min.js"></script>
 </head>
 
 <body>
   <a-scene>
+  <!--Controls-->
+  <a-entity laser-controls raycaster="far: 2" line="color:blue; opacity: 0.5"></a-entity>
   <!--Floor-->
   <a-entity rotation="-90 0 0" geometry="height:5;width:5;primitive:plane" flatShading="true"></a-entity>
   </a-scene>
