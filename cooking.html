@@ -11,15 +11,13 @@
   <script src="//cdn.rawgit.com/donmccurdy/aframe-extras/v3.13.1/dist/aframe-extras.min.js"></script>
   <!--A-Frame Physics-->
   <script src="//cdn.rawgit.com/donmccurdy/aframe-physics-system/v2.1.0/dist/aframe-physics-system.min.js"></script>
-  <!--Super Hands-->
-  <script src="https://unpkg.com/super-hands@2.1.0/dist/super-hands.min.js"></script>
 </head>
 
 <body>
   <a-scene>
   <!--Controls-->
-  <a-entity hand-controls="left" progressive-controls="objects: a-box" grab></a-entity>
-  <a-entity hand-controls="right" progressive-controls="objects: a-box" grab></a-entity>
+  <a-entity hand-controls="left"></a-entity>
+  <a-entity hand-controls="right"></a-entity>
   <!--Floor-->
   <a-plane static-body rotation="-90 0 0" height="5" width="5" color="#BEBEBE" flatShading="true"></a-plane>
   <!--Roof-->
@@ -37,12 +35,12 @@
   <!--Final Table-->
   <a-box static-body height="0.01" width="2" depth="2" color="#89E0CD" flatshading="true" position="2 1 -1"></a-box>
   <!--Butter-->
-  <a-box dynamic-body mass="1" hoverable grabbable streachable drag-dropable height="0.2" width="0.1" depth="0.2" color="#F4B93B" flatshading="true" position="-2.0 1.1 -1"></a-box>
-  <a-box dynamic-body mass="1" hoverable grabbable streachable drag-dropable height="0.2" width="0.1" depth="0.2" color="#F4B93B" flatshading="true" position="-1.9 1.1 -1"></a-box>
-  <a-box dynamic-body mass="1" hoverable grabbable streachable drag-dropable height="0.2" width="0.1" depth="0.2" color="#F4B93B" flatshading="true" position="-1.8 1.1 -1"></a-box>
-  <a-box dynamic-body mass="1" hoverable grabbable streachable drag-dropable height="0.2" width="0.1" depth="0.2" color="#F4B93B" flatshading="true" position="-1.7 1.1 -1"></a-box>
+  <a-box dynamic-body mass="1" height="0.2" width="0.1" depth="0.2" color="#F4B93B" flatshading="true" position="-2.0 1.1 -1"></a-box>
+  <a-box dynamic-body mass="1" height="0.2" width="0.1" depth="0.2" color="#F4B93B" flatshading="true" position="-1.9 1.1 -1"></a-box>
+  <a-box dynamic-body mass="1" height="0.2" width="0.1" depth="0.2" color="#F4B93B" flatshading="true" position="-1.8 1.1 -1"></a-box>
+  <a-box dynamic-body mass="1" height="0.2" width="0.1" depth="0.2" color="#F4B93B" flatshading="true" position="-1.7 1.1 -1"></a-box>
   <!--Flour-->
-  <a-box dynamic-body mass="1" hoverable grabbable drag-dropable height="0.5" width="0.3" depth="0.3" flatshading="true" position="--1.9 1.1 -1.4"></a-box>
+  <a-box dynamic-body mass="1" height="0.5" width="0.3" depth="0.3" flatshading="true" position="--1.9 1.1 -1.4"></a-box>
   </a-scene>
 </body>
 
