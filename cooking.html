@@ -13,6 +13,8 @@
   <script src="https://cdn.rawgit.com/donmccurdy/aframe-physics-system/v2.1.0/dist/aframe-physics-system.min.js"></script>
   <!--Superhands-->
   <script src="https://unpkg.com/super-hands@2.1.0/dist/super-hands.min.js"></script>
+  <!--Custom Components-->
+  <script src="./butter.js"></script>
 </head>
 
 <body>
@@ -43,13 +45,13 @@
   <!--Final Table-->
   <a-box static-body height="0.01" width="2" depth="2" color="#89E0CD" flatshading="true" position="2 0.4 -1"></a-box>
   <!--Butter-->
-  <a-box dynamic-body mass="1" height="0.2" width="0.05" depth="0.2" color="#F4B93B" flatshading="true" position="-2.0 0.5 -1" hoverable streachable grabbable dropable></a-box>
-  <a-box dynamic-body mass="1" height="0.2" width="0.05" depth="0.2" color="#F4B93B" flatshading="true" position="-1.95 0.5 -1" hoverable streachable grabbable dropable></a-box>
-  <a-box dynamic-body mass="1" height="0.2" width="0.05" depth="0.2" color="#F4B93B" flatshading="true" position="-1.9 0.5 -1" hoverable streachable grabbable dropable></a-box>
-  <a-box dynamic-body mass="1" height="0.2" width="0.05" depth="0.2" color="#F4B93B" flatshading="true" position="-1.85 0.5 -1" hoverable streachable grabbable dropable></a-box>
-  <a-box dynamic-body mass="1" height="0.2" width="0.05" depth="0.2" color="#F4B93B" flatshading="true" position="-1.8 0.5 -1" hoverable streachable grabbable dropable></a-box>
-  <a-box dynamic-body mass="1" height="0.2" width="0.05" depth="0.2" color="#F4B93B" flatshading="true" position="-1.75 0.5 -1" hoverable streachable grabbable dropable></a-box>
-  <a-box dynamic-body mass="1" height="0.2" width="0.05" depth="0.2" color="#F4B93B" flatshading="true" position="-1.7 0.5 -1" hoverable streachable grabbable dropable></a-box>    
+  <a-entity butter dynamic-body mass="1" height="0.2" width="0.05" depth="0.2" position="-2.0 0.5 -1" hoverable streachable grabbable dropable></a-entity>
+  <a-entity butter dynamic-body mass="1" height="0.2" width="0.05" depth="0.2" position="-1.95 0.5 -1" hoverable streachable grabbable dropable></a-entity>
+  <a-entity butter dynamic-body mass="1" height="0.2" width="0.05" depth="0.2" position="-1.9 0.5 -1" hoverable streachable grabbable dropable></a-entity>
+  <a-entity butter dynamic-body mass="1" height="0.2" width="0.05" depth="0.2" position="-1.85 0.5 -1" hoverable streachable grabbable dropable></a-entity>
+  <a-entity butter butter butter dynamic-body mass="1" height="0.2" width="0.05" depth="0.2" position="-1.8 0.5 -1" hoverable streachable grabbable dropable></a-entity>
+  <a-entity butter butter dynamic-body mass="1" height="0.2" width="0.05" depth="0.2" position="-1.75 0.5 -1" hoverable streachable grabbable dropable></a-entity>
+  <a-entity butter dynamic-body mass="1" height="0.2" width="0.05" depth="0.2" position="-1.7 0.5 -1" hoverable streachable grabbable dropable></a-entity>    
   <!--Knife-->
   <a-box dynamic-body mass="1" hoverable streachable grabbable dropable height="0.1" width="0.2" depth="0.1" flatshading="true" position="-1.9 0.7 -0.2"></a-box>
   <!--Cake Maker-->
